@@ -1,1 +1,3 @@
 user2;password2;info2;role2
+Markferry1;myAw3s0m3P4ssw0rd;Mark Ferry|South Basabo|D-23/A;merchant
+Johndoe82;tH3B3stP4ssw0rd;John Doe|New york city|98/3;merchant

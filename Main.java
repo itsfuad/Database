@@ -28,12 +28,14 @@ public class Main {
         //create database
         UserDatabase userDatabase = new UserDatabase("users.txt");
 
-        userDatabase.insertRecord("user1", "password1", "info1", "role1");
-        userDatabase.insertRecord("user2", "password2", "info2", "role2");
+        userDatabase.insertUser("Markferry1", "myAw3s0m3P4ssw0rd", "Mark Ferry|South Basabo|D-23/A", "merchant");
+        userDatabase.insertUser("Mahdi Hossain", "f4k3P4ssw0rd", "Mahdi Hossain|North California|23/9", "merchant");
+        userDatabase.insertUser("Johndoe82", "tH3B3stP4ssw0rd", "John Doe|New york city|98/3", "merchant");
 
-        userDatabase.deleteRecord("user1");
-        userDatabase.deleteRecord("user3");
 
-        userDatabase.printAll("user2");
+        userDatabase.deleteUser("Mahdi Hossain");
+        userDatabase.deleteUser("user3");
+
+        userDatabase.printAll();
     }
 }
